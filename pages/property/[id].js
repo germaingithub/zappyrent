@@ -1,4 +1,4 @@
-import { Button, Flex, Text,Center } from '@chakra-ui/layout';
+import { Flex, Text,Center } from '@chakra-ui/layout';
 import millify from 'millify';
 
 import { baseUrl, fetchApi } from '../utils/fetchApi';

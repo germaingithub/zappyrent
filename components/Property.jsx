@@ -1,8 +1,6 @@
 import Link from 'next/link';
-import Images from 'next/image';
 import { Box, Flex, Text, Avatar, Button, Image} from '@chakra-ui/react';
 import millify from 'millify';
-import Modal from './modal';
 
 const Property = ({ property: {images, tenants,description, price, available,type, title,
 baths,beds, id } }) => ( 
